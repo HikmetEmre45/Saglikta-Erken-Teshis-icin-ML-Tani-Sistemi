@@ -49,6 +49,5 @@ Bu çalışmada literatür kıyaslaması olarak şu araştırma temel alınmış
 1. **Veri Kurtarma (İmputasyon):** Canlı bir insanda Kan Basıncı, Glikoz, BMI ve İnsülin değerlerinin "0" olması fizyolojik olarak imkânsızdır. Bu kayıtları doğrudan silmek yerine, ait oldukları sınıfların (Sağlıklı/Diyabetik) medyan değerleriyle doldurularak veri kaybı önlenmiştir.
 2. **Katmanlı Bölümleme (Stratified Split):** Veri dengesizliğini korumak için veri seti %80 Eğitim, %20 Test olarak katmanlı bölünmüştür.
 3. **Standartlaştırma:** Modellerin değişken ölçeklerinden etkilenmemesi için özellikler standartlaştırılmıştır.
-
-> 🎤 **Sunum Notu / Konuşma Cümlesi:**  
+  
 > *"Veri setinde yaşayan bir insanda asla sıfır olamayacak glikoz, tansiyon, insülin gibi değerlere 0 girilmişti. Bunları silseydik hasta verisi kaybedecektik. Ben bu değerleri sağlıklı ve diyabetik sınıfların kendi medyanlarıyla doldurarak veri kaybını engelledim ve %80-%20 katmanlı olarak test setimi ayırdım."*
